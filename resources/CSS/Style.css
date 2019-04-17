@@ -1,0 +1,113 @@
+
+/* First setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* ---------------------------------- */
+/* -----------------Navbar------------- */
+.navbar{
+    background-color: rgba(148, 148, 148, 0.9) !important;
+    border-bottom: 1px solid rgba(14, 13, 13, 0.2);
+}
+.navbar img{
+    width: 80px;
+}
+.navbar .input-group input{
+    width: 500px;
+}
+.navbar .dropdown-menu a{
+    font-size: 70%;
+}
+.navbar .user-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* ---------------------------------- */
+/* -----------------Content------------- */
+.content{
+    
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.row img{
+    width: 100%;
+    margin: 5px 2px;
+    border-radius: 10px;
+    border:1px solid rgba(14, 13, 13, 0.2);
+}
+.content .row img:hover{
+    filter: blur(1px) brightness(70%);
+    cursor: zoom-in;
+}
+
+/* ---------------------------------- */
+/* -----------------Login form------------- */
+#login-modal{
+    left: 23%;
+}
+.modal-content{
+    width: 400px;;
+}
+.modal-body li{
+    display: block;
+    list-style: none;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.modal-body li input{
+    float: left;
+    display: inline;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid rgba(14, 13, 13,0.5);
+}
+.modal-body li .check input{
+    position: absolute;
+    left: -125px;
+    top: 127px;
+} 
+.modal-body li a{
+    font-size: 14px;
+}
+.modal-body li p{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 120px;
+    display: inline;
+    float: left;
+}
+.modal-body .login-group button{
+    padding: 4px 40px;
+    margin-left: 100px;
+    display: block;
+}
+.modal-body .login-group span,
+.modal-body .login-group a{
+    font-size: 14px;
+}
+.modal-body .login-group span{
+    margin-left: 87px;
+}
+/* ----------------------------------- */
+/*----------------- detail ------------*/
+.showdetail{
+    width: 100%;
+    margin-top: 10%;
+    display: none;
+}
+.showdetail .col-6{
+    margin: 0 auto;
+}
+.showdetail .detail img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

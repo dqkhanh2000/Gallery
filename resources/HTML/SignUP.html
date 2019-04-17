@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/resources/Scrip/SignUp.js"></script>
+    <link rel="stylesheet" type="text/css" href="/resources/CSS/SignUp.css">
+</head>
+
+<body>
+    <div class="body">
+        <h2>Create An Account</h2>
+        <div class="group">
+            <div class="content">
+                <b>Username</b>
+                <input type="text" maxlength="20" placeholder="Username">
+            </div>
+            <div class="content">
+                <b>Password</b>
+                <input class="pass" type="password" maxlength="20" minlength="6" placeholder="Password">
+                <i class="fas fa-eye-slash" id="icon-pass"></i>
+            </div>
+            <div class="content">
+                <b>Confirm Password</b>
+                <input class="confirm-pass" type="password" maxlength="20" placeholder="Confirm Password">
+                <i class="fas fa-eye-slash" id="icon-confirm-pass"></i>
+            </div>
+            <div class="content">
+                <b>Email</b>
+                <input type="email" maxlength="30" placeholder="abc@email.com">
+            </div>
+            <div class="check">
+                <input class="check-box" type="checkbox">
+                <p>I read and agree with Terms of Service.</p>
+            </div>
+            <div class="clearfix"></div>
+            <a class="button" href="../../index.html">Sign up</a>
+            <!-- <div class="clearfix"></div> -->
+        </div>
+    </div>
+</body>
+
+</html>
